@@ -1,0 +1,868 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&amp;display=swap" rel="stylesheet"/>
+<style>
+  .gradient-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+</style>
+<style>
+header h1 {
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 4rem !important;
+  margin: 0.5rem 0;
+}
+</style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Garden Vegetables</title>
+<style>
+.nutrient-table-wrapper table {
+  font-size: 0.75rem;
+  color: #ffffff; /* indigo/purple */
+  margin-left: 0; /* align left */
+}
+.nutrient-table-wrapper {
+  text-align: left; /* wrapper left align */
+}
+.nutrient-table-wrapper th,
+.nutrient-table-wrapper td strong {
+  font-weight: bold;
+}
+.nutrient-table-wrapper td {
+  font-weight: normal;
+}
+
+.nutrient-table-wrapper {
+  background: transparent !important;
+}
+.nutrient-table-wrapper table {
+  background: transparent !important;
+}
+.nutrient-table-wrapper th, .nutrient-table-wrapper td {
+  background: transparent !important;
+}
+
+.nutrient-table-wrapper table {
+  font-size: 0.6rem !important;
+}
+.nutrient-table-wrapper th,
+.nutrient-table-wrapper td {
+  color: #ffffff !important;
+  font-weight: 600 !important;
+}
+</style><style>
+.nutrient-table-wrapper table {
+  font-size: 0.6rem !important;
+  color: #ffffff !important;
+}
+.nutrient-table-wrapper th,
+.nutrient-table-wrapper td strong {
+  font-weight: bold !important;
+  color: #ffffff !important;
+}
+</style>
+<style>
+body {
+  background: #293940;
+}
+</style>
+<style>
+.nutrient-table-wrapper th,
+.nutrient-table-wrapper td {
+  color: #ffffff !important;
+}
+</style><style>
+/* Professional header flex layout */
+.header-flex {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+  max-width: 1200px;
+}
+.nutrient-table-wrapper {
+  flex: 1 1 300px;
+  max-width: 350px;
+  clear: both;
+}
+.nutrient-table-wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.6rem;
+  color: #fff;
+}
+.nutrient-table-wrapper th,
+.nutrient-table-wrapper td {
+  padding: 4px;
+  border: 1px solid #ddd;
+  font-weight: 600;
+}
+.color-diet-chart {
+  flex: 1 1 250px;
+  font-size: 0.6rem;
+  color: #fff;
+}
+.color-diet-chart h2, .color-diet-chart h3 {
+}
+.color-diet-chart ul {
+  padding: 0;
+  list-style-type: disc;
+}
+.header-flex img {
+  flex: 0 0 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.header-flex {
+  align-items: stretch !important;
+}
+.header-flex img {
+  width: auto !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  align-self: stretch !important;
+}
+
+.header-flex {
+  justify-content: flex-end !important;
+  padding-left: 2rem;
+}
+.header-flex img {
+  align-self: flex-start !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+</style><style>
+.header-flex img {
+  height: 100%;
+  object-fit: cover;
+}
+</style><style>
+.header-flex img {
+  align-self: flex-start !important;
+}
+</style><style>
+header h1 {
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+</style>
+<style>
+.purple-card {
+  position: relative;
+}
+.purple-card .nutrition-summary {
+  background-color: pink !important;
+  color: white !important;
+  padding: 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  z-index: 1;
+}
+</style>
+<style>
+.card.purple-card {
+  position: relative;
+  padding-top: 60px;
+}
+.card.purple-card .nutrition-summary {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: pink !important;
+  color: white !important;
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  z-index: 10;
+}
+</style>
+<style>
+  body {
+    background-image: url('back2.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+</style>
+
+<style>
+  body::before {
+    content: "";
+    background-image: url('back2.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+  }
+</style>
+
+
+<style>
+  h2[id], h3[id] {
+    scroll-margin-top: 100px;
+  }
+</style>
+
+</head>
+<body style="background-image: url(\'back2.jpeg\'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rainbow Diet Nutritional Mapping for Garden Vegetables</title>
+    <!-- Font Import -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet" />
+    <style>
+      /* Enhanced heading styles; background untouched */
+      header h1.gradient-heading {
+        font-size: clamp(2rem, 8vw, 3rem);
+        font-weight: 700;
+        margin: 0.5rem 0;
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+        background-size: 200% 200%;
+        animation: gradientShift 4s ease infinite;
+        -webkit-background-clip: text;
+        color: transparent;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+        display: inline-block;
+        position: relative;
+        transition: transform 0.3s ease;
+      }
+      header h1.gradient-heading::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -0.3rem;
+        transform: translateX(-50%);
+        width: 0;
+        height: 4px;
+        background: currentColor;
+        transition: width 0.4s ease;
+      }
+      header h1.gradient-heading:hover {
+        transform: scale(1.1);
+        letter-spacing: 0.15em;
+      }
+      header h1.gradient-heading:hover::after {
+        width: 60%;
+      }
+      @keyframes gradientShift {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+      }
+    </style>
+  </head>
+  <body>
+    <header style="padding-top:0; margin-top:0;">
+      <h1 class="gradient-heading">
+        Eat the Rainbow with Robb Garden Vegetables
+      </h1>
+    </header>
+
+    <style>
+      /* MOBILE RESPONSIVE ADJUSTMENTS */
+      @media (max-width: 600px) {
+        /* Stack header elements vertically */
+        .header-flex {
+          flex-direction: column !important;
+          align-items: center !important;
+          padding: 0.5rem !important;
+          gap: 1rem !important;
+        }
+        /* Make the bowl image full‑width but keep aspect */
+        .header-flex img,
+        img[usemap] {
+          width: 100% !important;
+          height: auto !important;
+        }
+    
+        /* Scale down the main heading */
+        header h1.gradient-heading {
+          font-size: clamp(1.5rem, 8vw, 2rem) !important;
+          text-align: center;
+        }
+    
+        /* Ensure the nutrient table and charts go full‑width */
+        .nutrient-table-wrapper,
+        .color-diet-chart {
+          flex: 1 1 100% !important;
+          max-width: 100% !important;
+          margin: 0 !important;
+        }
+    
+        /* Switch grid of cards to one column */
+        .grid {
+          display: grid !important;
+          grid-template-columns: 1fr !important;
+          gap: 0.5rem !important;
+        }
+    
+        /* Shrink card padding and font for mobile */
+        .card {
+          padding: 0.75rem !important;
+          border-radius: 8px !important;
+        }
+        .card h3 {
+          font-size: 1rem !important;
+        }
+        .nutrition-summary,
+        .nutrition-info ul {
+          font-size: 0.6rem !important;
+        }
+    
+        /* Reduce table font-size on mobile */
+        .header-daily-nutrients table,
+        .header-daily-nutrients th,
+        .header-daily-nutrients td {
+          font-size: 0.6rem !important;
+        }
+      }
+    </style>
+    
+<img id="bowlImage" src="bowl.jpeg" usemap="#colorMap" alt="Color Groups" style="width:100%; max-width:370px; display:block; margin:auto; margin: 0 ">
+<map name="colorMap">
+  <area shape="rect" coords="230,530,300,600" href="#red"    alt="Red">
+  <area shape="rect" coords="300,460,370,530" href="#orange" alt="Orange">
+  <area shape="rect" coords="370,390,440,460" href="#yellow" alt="Yellow">
+  <area shape="rect" coords="470,290,540,360" href="#green"  alt="Green">
+  <area shape="rect" coords="510,250,580,320" href="#purple" alt="Purple">
+  <area shape="rect" coords="580,180,650,250" href="#white"  alt="White">
+    <area shape="rect" coords="330,630,400,700" href="#brown" alt="Brown">
+</map>
+
+<div style="display:flex; align-items:flex-start; gap:20px;"><div class="header-flex"><div class="nutrient-table-wrapper" style="overflow-x:auto; margin:20px 0; max-width:400px;; text-align: left;; clear: both;">
+</div>
+</div>
+<div class="table-chart-flex" style="display: flex; align-items: flex-start; gap: 20px;"></div>
+</div></header>
+<script>
+function filterColor(color) {
+  document.querySelectorAll('.section').forEach(section => {
+    if (section.querySelector('h2').textContent.includes(color)) {
+      section.style.display = 'block';
+    } else {
+      section.style.display = 'none';
+    }
+  });
+}
+</script>
+<section class="section" style="background-color: #eeeeee; border-radius: 10px; padding: 20px;; display: block;">
+<div class="header-daily-nutrients" style="background-color:#293940; color:white; padding:15px; margin-bottom:20px;">
+<h2 style="margin:0 0 10px;">Daily Values</h2>
+<table>
+<thead>
+<tr>
+<th>Nutrient</th>
+<th style="text-align:right;">Daily Value</th>
+<th>Unit</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>Vitamin A</td><td style="text-align:right;">900</td><td>µg</td></tr>
+<tr><td>Thiamin (Vitamin B₁)</td><td style="text-align:right;">1.2</td><td>mg</td></tr>
+<tr><td>Vitamin B₆</td><td style="text-align:right;">1.7</td><td>mg</td></tr>
+<tr><td>Folate (Vitamin B₉)</td><td style="text-align:right;">400</td><td>µg</td></tr>
+<tr><td>Vitamin B₁₂</td><td style="text-align:right;">2.4</td><td>µg</td></tr>
+<tr><td>Vitamin C</td><td style="text-align:right;">90</td><td>mg</td></tr>
+<tr><td>Calcium</td><td style="text-align:right;">1300</td><td>mg</td></tr>
+<tr><td>Iron</td><td style="text-align:right;">18</td><td>mg</td></tr>
+<tr><td>Magnesium</td><td style="text-align:right;">420</td><td>mg</td></tr>
+<tr><td>Potassium</td><td style="text-align:right;">4700</td><td>mg</td></tr>
+<tr><td>Selenium</td><td style="text-align:right;">55</td><td>µg</td></tr>
+<tr><td>Zinc</td><td style="text-align:right;">11</td><td>mg</td></tr>
+<tr><td>Dietary Fiber</td><td style="text-align:right;">28</td><td>g</td></tr>
+<tr><td>Total Carbohydrate (CHO)</td><td style="text-align:right;">275</td><td>g</td></tr>
+</tbody>
+</table>
+</div><h2 style="color: #1484CD; font-family: Arial, sans-serif;">Explore nutritional information across various colorful vegetables</h2>
+<h2 id="purple">Purple – 1 cup: Healthy heart, Healthy blood vessels, Helps memory, Anti-aging, Healthy urinary system</h2>
+<div class="grid">
+<div class="card" style="background-color: #ba68c8; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Eggplant</h3>
+<div class="badge" style="background-color: #ba68c8; color: white;">Purple</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 2%</li><li><strong>B1:</strong> 3167%</li><li><strong>B6:</strong> 58824%</li><li><strong>B9:</strong> 19%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 111%</li><li><strong>Iron:</strong> 644%</li><li><strong>Magnesium:</strong> 98%</li><li><strong>Potassium:</strong> 223%</li><li><strong>Selenium:</strong> 618%</li><li><strong>Zinc:</strong> 1245%</li><li><strong>Omega 3 Fas:</strong> 7300%</li><li><strong>D:</strong> 40%</li></ul></div>
+</div>
+<div class="card" style="background-color: #ba68c8; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Radish / Daikon</h3>
+<div class="badge" style="background-color: #ba68c8; color: white;">Purple</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 1%</li><li><strong>B1:</strong> 1333%</li><li><strong>B6:</strong> 556706%</li><li><strong>B9:</strong> 625%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 8262%</li><li><strong>Iron:</strong> 30044%</li><li><strong>Magnesium:</strong> 18268%</li><li><strong>Potassium:</strong> 496%</li><li><strong>Selenium:</strong> 431%</li><li><strong>Zinc:</strong> 464%</li><li><strong>Omega 3 Fas:</strong> 1500%</li><li><strong>D:</strong> 675%</li></ul></div>
+</div>
+<div class="card" style="background-color: #ba68c8; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Turnip</h3>
+<div class="badge" style="background-color: #ba68c8; color: white;">Purple</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 1%</li><li><strong>B1:</strong> 2167%</li><li><strong>B6:</strong> 999529%</li><li><strong>B9:</strong> 350%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 4384%</li><li><strong>Iron:</strong> 17600%</li><li><strong>Magnesium:</strong> 6960%</li><li><strong>Potassium:</strong> 406%</li><li><strong>Selenium:</strong> 236%</li><li><strong>Zinc:</strong> 182%</li><li><strong>Omega 3 Fas:</strong> 300%</li><li><strong>D:</strong> 575%</li></ul></div>
+</div>
+</div></section>
+<section class="section" style="background-color: #e8f5e9; border-radius: 10px; padding: 20px;; display: block;">
+<h2 id="green">Green – 1 cup: Prevents cancer, Healthy bowels, Immune system support, Supports eyesight, Healthy skin</h2>
+<div class="grid">
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Arugula</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 13873%</li><li><strong>B1:</strong> 333%</li><li><strong>B6:</strong> 412%</li><li><strong>B9:</strong> 965%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 1689%</li><li><strong>Iron:</strong> 811%</li><li><strong>Magnesium:</strong> 1119%</li><li><strong>Potassium:</strong> 785%</li><li><strong>Selenium:</strong> 62%</li><li><strong>Zinc:</strong> 82%</li><li><strong>Omega 3 Fas:</strong> 1700%</li><li><strong>D:</strong> 290%</li></ul></div>
+</div>
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h2 id="green">Beans (green: all types)</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 389%</li><li><strong>B1:</strong> 667%</li><li><strong>B6:</strong> 353%</li><li><strong>B9:</strong> 825%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 1356%</li><li><strong>Iron:</strong> 578%</li><li><strong>Magnesium:</strong> 595%</li><li><strong>Potassium:</strong> 449%</li><li><strong>Selenium:</strong> 109%</li><li><strong>Zinc:</strong> 218%</li><li><strong>Omega 3 Fas:</strong> 1700%</li><li><strong>D:</strong> 0%</li></ul></div>
+</div>
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Bitter Melon</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 5233%</li><li><strong>B1:</strong> 583%</li><li><strong>B6:</strong> 235%</li><li><strong>B9:</strong> 1800%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 9333%</li><li><strong>Iron:</strong> 239%</li><li><strong>Magnesium:</strong> 405%</li><li><strong>Potassium:</strong> 630%</li><li><strong>Selenium:</strong> 145%</li><li><strong>Zinc:</strong> 700%</li><li><strong>Omega 3 Fas:</strong> 1900%</li><li><strong>D:</strong> 0%</li></ul></div>
+</div>
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Bok Choy</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 34751%</li><li><strong>B1:</strong> 250%</li><li><strong>B6:</strong> 824%</li><li><strong>B9:</strong> 1155%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 3500%</li><li><strong>Iron:</strong> 17389%</li><li><strong>Magnesium:</strong> 4200%</li><li><strong>Potassium:</strong> 536%</li><li><strong>Selenium:</strong> 64%</li><li><strong>Zinc:</strong> 118%</li><li><strong>Omega 3 Fas:</strong> 1100%</li><li><strong>D:</strong> 650%</li></ul></div>
+</div>
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Broccoli</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 6299%</li><li><strong>B1:</strong> 500%</li><li><strong>B6:</strong> 941%</li><li><strong>B9:</strong> 1433%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 9019%</li><li><strong>Iron:</strong> 10617%</li><li><strong>Magnesium:</strong> 6847%</li><li><strong>Potassium:</strong> 700%</li><li><strong>Selenium:</strong> 415%</li><li><strong>Zinc:</strong> 336%</li><li><strong>Omega 3 Fas:</strong> 1100%</li><li><strong>D:</strong> 950%</li></ul></div>
+</div>
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Cabbage</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 13566%</li><li><strong>B1:</strong> 3000%</li><li><strong>B6:</strong> 4059%</li><li><strong>B9:</strong> 7676%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 25544%</li><li><strong>Iron:</strong> 59500%</li><li><strong>Magnesium:</strong> 18010%</li><li><strong>Potassium:</strong> 362%</li><li><strong>Selenium:</strong> 1169%</li><li><strong>Zinc:</strong> 1173%</li><li><strong>Omega 3 Fas:</strong> 1200%</li><li><strong>D:</strong> 500%</li></ul></div>
+</div>
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Celery</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 1996%</li><li><strong>B1:</strong> 83%</li><li><strong>B6:</strong> 176%</li><li><strong>B9:</strong> 360%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 138%</li><li><strong>Iron:</strong> 2444%</li><li><strong>Magnesium:</strong> 2476%</li><li><strong>Potassium:</strong> 553%</li><li><strong>Selenium:</strong> 29%</li><li><strong>Zinc:</strong> 45%</li><li><strong>Omega 3 Fas:</strong> 800%</li><li><strong>D:</strong> 40%</li></ul></div>
+</div>
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Chard</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 119078%</li><li><strong>B1:</strong> 500%</li><li><strong>B6:</strong> 882%</li><li><strong>B9:</strong> 394%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 3500%</li><li><strong>Iron:</strong> 83611%</li><li><strong>Magnesium:</strong> 22875%</li><li><strong>Potassium:</strong> 806%</li><li><strong>Selenium:</strong> 287%</li><li><strong>Zinc:</strong> 527%</li><li><strong>Omega 3 Fas:</strong> 1300%</li><li><strong>D:</strong> 1950%</li></ul></div>
+</div>
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Chives</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 48367%</li><li><strong>B1:</strong> 0%</li><li><strong>B6:</strong> 0%</li><li><strong>B9:</strong> 26%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 64%</li><li><strong>Iron:</strong> 233%</li><li><strong>Magnesium:</strong> 70%</li><li><strong>Potassium:</strong> 630%</li><li><strong>Selenium:</strong> 2%</li><li><strong>Zinc:</strong> 9%</li><li><strong>Omega 3 Fas:</strong> 300%</li><li><strong>D:</strong> 10%</li></ul></div>
+</div>
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Cucumbers</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 607%</li><li><strong>B1:</strong> 83%</li><li><strong>B6:</strong> 118%</li><li><strong>B9:</strong> 91%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 162%</li><li><strong>Iron:</strong> 3756%</li><li><strong>Magnesium:</strong> 1820%</li><li><strong>Potassium:</strong> 313%</li><li><strong>Selenium:</strong> 29%</li><li><strong>Zinc:</strong> 91%</li><li><strong>Omega 3 Fas:</strong> 200%</li><li><strong>D:</strong> 75%</li></ul></div>
+</div>
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Fennel</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 30%</li><li><strong>B1:</strong> 83%</li><li><strong>B6:</strong> 59%</li><li><strong>B9:</strong> 11%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 41%</li><li><strong>Iron:</strong> 4294%</li><li><strong>Magnesium:</strong> 92%</li><li><strong>Potassium:</strong> 881%</li><li><strong>Selenium:</strong> 13%</li><li><strong>Zinc:</strong> 182%</li><li><strong>Omega 3 Fas:</strong> 4700%</li><li><strong>D:</strong> 0%</li></ul></div>
+</div>
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Figs</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 9%</li><li><strong>B1:</strong> 83%</li><li><strong>B6:</strong> 59%</li><li><strong>B9:</strong> 19%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 11%</li><li><strong>Iron:</strong> 3167%</li><li><strong>Magnesium:</strong> 3741%</li><li><strong>Potassium:</strong> 494%</li><li><strong>Selenium:</strong> 9%</li><li><strong>Zinc:</strong> 45%</li><li><strong>Omega 3 Fas:</strong> 1300%</li><li><strong>D:</strong> 85%</li></ul></div>
+</div>
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h2 id="green">Green onions</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 11078%</li><li><strong>B1:</strong> 500%</li><li><strong>B6:</strong> 706%</li><li><strong>B9:</strong> 1600%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 2089%</li><li><strong>Iron:</strong> 822%</li><li><strong>Magnesium:</strong> 476%</li><li><strong>Potassium:</strong> 587%</li><li><strong>Selenium:</strong> 127%</li><li><strong>Zinc:</strong> 364%</li><li><strong>Omega 3 Fas:</strong> 300%</li><li><strong>D:</strong> 0%</li></ul></div>
+</div>
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Greens (collards)</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 101629%</li><li><strong>B1:</strong> 667%</li><li><strong>B6:</strong> 1412%</li><li><strong>B9:</strong> 4418%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 3842%</li><li><strong>Iron:</strong> 21111%</li><li><strong>Magnesium:</strong> 5248%</li><li><strong>Potassium:</strong> 453%</li><li><strong>Selenium:</strong> 173%</li><li><strong>Zinc:</strong> 400%</li><li><strong>Omega 3 Fas:</strong> 1600%</li><li><strong>D:</strong> 1100%</li></ul></div>
+</div>
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Kale</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 68682%</li><li><strong>B1:</strong> 583%</li><li><strong>B6:</strong> 1059%</li><li><strong>B9:</strong> 486%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 8933%</li><li><strong>Iron:</strong> 12656%</li><li><strong>Magnesium:</strong> 7131%</li><li><strong>Potassium:</strong> 951%</li><li><strong>Selenium:</strong> 109%</li><li><strong>Zinc:</strong> 264%</li><li><strong>Omega 3 Fas:</strong> 900%</li><li><strong>D:</strong> 570%</li></ul></div>
+</div>
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Kohlrabi</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 385%</li><li><strong>B1:</strong> 583%</li><li><strong>B6:</strong> 1471%</li><li><strong>B9:</strong> 497%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 1011%</li><li><strong>Iron:</strong> 17417%</li><li><strong>Magnesium:</strong> 13357%</li><li><strong>Potassium:</strong> 745%</li><li><strong>Selenium:</strong> 240%</li><li><strong>Zinc:</strong> 464%</li><li><strong>Omega 3 Fas:</strong> 400%</li><li><strong>D:</strong> 330%</li></ul></div>
+</div>
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Leeks</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 98889%</li><li><strong>B1:</strong> 417%</li><li><strong>B6:</strong> 1235%</li><li><strong>B9:</strong> 1424%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 1187%</li><li><strong>Iron:</strong> 13844%</li><li><strong>Magnesium:</strong> 3814%</li><li><strong>Potassium:</strong> 383%</li><li><strong>Selenium:</strong> 162%</li><li><strong>Zinc:</strong> 100%</li><li><strong>Omega 3 Fas:</strong> 500%</li><li><strong>D:</strong> 935%</li></ul></div>
+</div>
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Lettuce</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 11848%</li><li><strong>B1:</strong> 167%</li><li><strong>B6:</strong> 118%</li><li><strong>B9:</strong> 228%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 480%</li><li><strong>Iron:</strong> 1722%</li><li><strong>Magnesium:</strong> 5870%</li><li><strong>Potassium:</strong> 413%</li><li><strong>Selenium:</strong> 25%</li><li><strong>Zinc:</strong> 36%</li><li><strong>Omega 3 Fas:</strong> 1300%</li><li><strong>D:</strong> 105%</li></ul></div>
+</div>
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Mustard greens</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 14%</li><li><strong>B1:</strong> 167%</li><li><strong>B6:</strong> 59%</li><li><strong>B9:</strong> 63%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 11%</li><li><strong>Iron:</strong> 5444%</li><li><strong>Magnesium:</strong> 7679%</li><li><strong>Potassium:</strong> 817%</li><li><strong>Selenium:</strong> 2620%</li><li><strong>Zinc:</strong> 173%</li><li><strong>Omega 3 Fas:</strong> 900%</li><li><strong>D:</strong> 165%</li></ul></div>
+</div>
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Okra</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 2381733%</li><li><strong>B1:</strong> 1583%</li><li><strong>B6:</strong> 1647%</li><li><strong>B9:</strong> 91%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 6%</li><li><strong>Iron:</strong> 422%</li><li><strong>Magnesium:</strong> 1289%</li><li><strong>Potassium:</strong> 612%</li><li><strong>Selenium:</strong> 73%</li><li><strong>Zinc:</strong> 527%</li><li><strong>Omega 3 Fas:</strong> 100%</li><li><strong>D:</strong> 4650%</li></ul></div>
+</div>
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Romanesco</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 6922%</li><li><strong>B1:</strong> 417%</li><li><strong>B6:</strong> 1059%</li><li><strong>B9:</strong> 1425%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 9911%</li><li><strong>Iron:</strong> 611%</li><li><strong>Magnesium:</strong> 786%</li><li><strong>Potassium:</strong> 613%</li><li><strong>Selenium:</strong> 200%</li><li><strong>Zinc:</strong> 373%</li><li><strong>Omega 3 Fas:</strong> 1100%</li><li><strong>D:</strong> 0%</li></ul></div>
+</div>
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Sorrel</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 40667%</li><li><strong>B1:</strong> 750%</li><li><strong>B6:</strong> 294%</li><li><strong>B9:</strong> 75%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 5333%</li><li><strong>Iron:</strong> 1333%</li><li><strong>Magnesium:</strong> 2452%</li><li><strong>Potassium:</strong> 830%</li><li><strong>Selenium:</strong> 127%</li><li><strong>Zinc:</strong> 400%</li><li><strong>Omega 3 Fas:</strong> 3500%</li><li><strong>D:</strong> 0%</li></ul></div>
+</div>
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Snap peas</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 584300%</li><li><strong>B1:</strong> 41667%</li><li><strong>B6:</strong> 529%</li><li><strong>B9:</strong> 2%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 4583%</li><li><strong>Iron:</strong> 4222%</li><li><strong>Magnesium:</strong> 19%</li><li><strong>Potassium:</strong> 48%</li><li><strong>Selenium:</strong> 33182%</li><li><strong>Zinc:</strong> 545%</li><li><strong>Omega 3 Fas:</strong> 500%</li><li><strong>D:</strong> 6060%</li></ul></div>
+</div>
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Spinach</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 17753622%</li><li><strong>B1:</strong> 5258333%</li><li><strong>B6:</strong> 1294%</li><li><strong>B9:</strong> 14%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 61218%</li><li><strong>Iron:</strong> 5206%</li><li><strong>Magnesium:</strong> 184%</li><li><strong>Potassium:</strong> 52%</li><li><strong>Selenium:</strong> 288131%</li><li><strong>Zinc:</strong> 482%</li><li><strong>Omega 3 Fas:</strong> 1300%</li><li><strong>D:</strong> 39905%</li></ul></div>
+</div>
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Squash (zucchini)</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 5311%</li><li><strong>B1:</strong> 83%</li><li><strong>B6:</strong> 118%</li><li><strong>B9:</strong> 80%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 607%</li><li><strong>Iron:</strong> 72%</li><li><strong>Magnesium:</strong> 126%</li><li><strong>Potassium:</strong> 156%</li><li><strong>Selenium:</strong> 36%</li><li><strong>Zinc:</strong> 291%</li><li><strong>Omega 3 Fas:</strong> 200%</li><li><strong>D:</strong> 1750%</li></ul></div>
+</div>
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Tomatillos</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 1267%</li><li><strong>B1:</strong> 333%</li><li><strong>B6:</strong> 471%</li><li><strong>B9:</strong> 175%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 1111%</li><li><strong>Iron:</strong> 344%</li><li><strong>Magnesium:</strong> 476%</li><li><strong>Potassium:</strong> 570%</li><li><strong>Selenium:</strong> 0%</li><li><strong>Zinc:</strong> 200%</li><li><strong>Omega 3 Fas:</strong> 300%</li><li><strong>D:</strong> 0%</li></ul></div>
+</div>
+<div class="card" style="background-color: #4caf50; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h2 id="green">Tomatoes (Green)</h3>
+<div class="badge" style="background-color: #4caf50; color: white;">Green</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 922%</li><li><strong>B1:</strong> 167%</li><li><strong>B6:</strong> 59%</li><li><strong>B9:</strong> 78%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 2600%</li><li><strong>Iron:</strong> 283%</li><li><strong>Magnesium:</strong> 262%</li><li><strong>Potassium:</strong> 434%</li><li><strong>Selenium:</strong> 0%</li><li><strong>Zinc:</strong> 145%</li><li><strong>Omega 3 Fas:</strong> 100%</li><li><strong>D:</strong> 0%</li></ul></div>
+</div>
+</div>
+</section>
+<section class="section" style="background-color: #fffde7; border-radius: 10px; padding: 20px;; display: block;">
+<h2 id="yellow">Yellow – 5 items: Healthy heart, Lowers cholesterol, Healthy joints, Supports eyesight, Healthy skin</h2>
+<div class="grid">
+<div class="card" style="background-color: #fbc02d; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Citrus</h3>
+<div class="badge" style="background-color: #fbc02d; color: white;">Yellow</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 122%</li><li><strong>B1:</strong> 917%</li><li><strong>B6:</strong> 471%</li><li><strong>B9:</strong> 750%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 5889%</li><li><strong>Iron:</strong> 56%</li><li><strong>Magnesium:</strong> 238%</li><li><strong>Potassium:</strong> 385%</li><li><strong>Selenium:</strong> 0%</li><li><strong>Zinc:</strong> 64%</li><li><strong>Omega 3 Fas:</strong> 100%</li><li><strong>D:</strong> 0%</li></ul></div>
+</div>
+<div class="card" style="background-color: #fbc02d; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Corn</h3>
+<div class="badge" style="background-color: #fbc02d; color: white;">Yellow</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 578%</li><li><strong>B1:</strong> 1667%</li><li><strong>B6:</strong> 353%</li><li><strong>B9:</strong> 1050%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 756%</li><li><strong>Iron:</strong> 289%</li><li><strong>Magnesium:</strong> 881%</li><li><strong>Potassium:</strong> 574%</li><li><strong>Selenium:</strong> 109%</li><li><strong>Zinc:</strong> 418%</li><li><strong>Omega 3 Fas:</strong> 500%</li><li><strong>D:</strong> 0%</li></ul></div>
+</div>
+<div class="card" style="background-color: #fbc02d; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Lemon</h3>
+<div class="badge" style="background-color: #fbc02d; color: white;">Yellow</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 17%</li><li><strong>B1:</strong> 83%</li><li><strong>B6:</strong> 0%</li><li><strong>B9:</strong> 19%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 412%</li><li><strong>Iron:</strong> 311%</li><li><strong>Magnesium:</strong> 230%</li><li><strong>Potassium:</strong> 294%</li><li><strong>Selenium:</strong> 5%</li><li><strong>Zinc:</strong> 9%</li><li><strong>Omega 3 Fas:</strong> 100%</li><li><strong>D:</strong> 20%</li></ul></div>
+</div>
+<div class="card" style="background-color: #fbc02d; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Lemondrop Watermelon</h3>
+<div class="badge" style="background-color: #fbc02d; color: white;">Yellow</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 6322%</li><li><strong>B1:</strong> 250%</li><li><strong>B6:</strong> 294%</li><li><strong>B9:</strong> 75%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 900%</li><li><strong>Iron:</strong> 133%</li><li><strong>Magnesium:</strong> 238%</li><li><strong>Potassium:</strong> 238%</li><li><strong>Selenium:</strong> 73%</li><li><strong>Zinc:</strong> 91%</li><li><strong>Omega 3 Fas:</strong> 400%</li><li><strong>D:</strong> 0%</li></ul></div>
+</div>
+<div class="card" style="background-color: #fbc02d; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Lemongrass</h3>
+<div class="badge" style="background-color: #fbc02d; color: white;">Yellow</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 0%</li><li><strong>B1:</strong> 83%</li><li><strong>B6:</strong> 471%</li><li><strong>B9:</strong> 0%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 289%</li><li><strong>Iron:</strong> 1000%</li><li><strong>Magnesium:</strong> 1429%</li><li><strong>Potassium:</strong> 1538%</li><li><strong>Selenium:</strong> 36%</li><li><strong>Zinc:</strong> 455%</li><li><strong>Omega 3 Fas:</strong> 100%</li><li><strong>D:</strong> 0%</li></ul></div>
+</div>
+<div class="card" style="background-color: #fbc02d; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Melon</h3>
+<div class="badge" style="background-color: #fbc02d; color: white;">Yellow</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 25929%</li><li><strong>B1:</strong> 250%</li><li><strong>B6:</strong> 294%</li><li><strong>B9:</strong> 362%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 2813%</li><li><strong>Iron:</strong> 4600%</li><li><strong>Magnesium:</strong> 4386%</li><li><strong>Potassium:</strong> 568%</li><li><strong>Selenium:</strong> 51%</li><li><strong>Zinc:</strong> 109%</li><li><strong>Omega 3 Fas:</strong> 600%</li><li><strong>D:</strong> 70%</li></ul></div>
+</div>
+<div class="card" style="background-color: #fbc02d; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Rutabaga</h3>
+<div class="badge" style="background-color: #fbc02d; color: white;">Yellow</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 86%</li><li><strong>B1:</strong> 2917%</li><li><strong>B6:</strong> 2294%</li><li><strong>B9:</strong> 2027%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 10722%</li><li><strong>Iron:</strong> 49322%</li><li><strong>Magnesium:</strong> 30972%</li><li><strong>Potassium:</strong> 717%</li><li><strong>Selenium:</strong> 491%</li><li><strong>Zinc:</strong> 1191%</li><li><strong>Omega 3 Fas:</strong> 3400%</li><li><strong>D:</strong> 1005%</li></ul></div>
+</div>
+</div>
+</section>
+<section class="section" style="background-color: #fff3e0; border-radius: 10px; padding: 20px;; display: block;">
+<h2 id="orange">Orange – 5 items: Healthy heart, Immune system support, Skin protection, Healthy skin, Antioxidant</h2>
+<div class="grid">
+<div class="card" style="background-color: #fb8c00; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Apricots</h3>
+<div class="badge" style="background-color: #fb8c00; color: white;">Orange</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 7490%</li><li><strong>B1:</strong> 83%</li><li><strong>B6:</strong> 118%</li><li><strong>B9:</strong> 79%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 389%</li><li><strong>Iron:</strong> 1994%</li><li><strong>Magnesium:</strong> 15%</li><li><strong>Potassium:</strong> 552%</li><li><strong>Selenium:</strong> 7%</li><li><strong>Zinc:</strong> 64%</li><li><strong>Omega 3 Fas:</strong> 300%</li><li><strong>D:</strong> 70%</li></ul></div>
+</div>
+<div class="card" style="background-color: #fb8c00; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Butternut Squash</h3>
+<div class="badge" style="background-color: #fb8c00; color: white;">Orange</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 12711%</li><li><strong>B1:</strong> 833%</li><li><strong>B6:</strong> 882%</li><li><strong>B9:</strong> 975%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 2333%</li><li><strong>Iron:</strong> 389%</li><li><strong>Magnesium:</strong> 810%</li><li><strong>Potassium:</strong> 749%</li><li><strong>Selenium:</strong> 91%</li><li><strong>Zinc:</strong> 136%</li><li><strong>Omega 3 Fas:</strong> 500%</li><li><strong>D:</strong> 0%</li></ul></div>
+</div>
+<div class="card" style="background-color: #fb8c00; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Carrots</h3>
+<div class="badge" style="background-color: #fb8c00; color: white;">Orange</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 9278%</li><li><strong>B1:</strong> 583%</li><li><strong>B6:</strong> 882%</li><li><strong>B9:</strong> 475%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 656%</li><li><strong>Iron:</strong> 167%</li><li><strong>Magnesium:</strong> 286%</li><li><strong>Potassium:</strong> 681%</li><li><strong>Selenium:</strong> 18%</li><li><strong>Zinc:</strong> 218%</li><li><strong>Omega 3 Fas:</strong> 100%</li><li><strong>D:</strong> 0%</li></ul></div>
+</div>
+<div class="card" style="background-color: #fb8c00; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Ground Cherries</h3>
+<div class="badge" style="background-color: #fb8c00; color: white;">Orange</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 832%</li><li><strong>B1:</strong> 250%</li><li><strong>B6:</strong> 353%</li><li><strong>B9:</strong> 117%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 910%</li><li><strong>Iron:</strong> 7150%</li><li><strong>Magnesium:</strong> 6184%</li><li><strong>Potassium:</strong> 570%</li><li><strong>Selenium:</strong> 15%</li><li><strong>Zinc:</strong> 55%</li><li><strong>Omega 3 Fas:</strong> 300%</li><li><strong>D:</strong> 210%</li></ul></div>
+</div>
+<div class="card" style="background-color: #fb8c00; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Honey Squash</h3>
+<div class="badge" style="background-color: #fb8c00; color: white;">Orange</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 34444%</li><li><strong>B1:</strong> 333%</li><li><strong>B6:</strong> 353%</li><li><strong>B9:</strong> 600%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 1000%</li><li><strong>Iron:</strong> 389%</li><li><strong>Magnesium:</strong> 286%</li><li><strong>Potassium:</strong> 723%</li><li><strong>Selenium:</strong> 36%</li><li><strong>Zinc:</strong> 82%</li><li><strong>Omega 3 Fas:</strong> 300%</li><li><strong>D:</strong> 0%</li></ul></div>
+</div>
+<div class="card" style="background-color: #fb8c00; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Peaches</h3>
+<div class="badge" style="background-color: #fb8c00; color: white;">Orange</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 6158%</li><li><strong>B1:</strong> 333%</li><li><strong>B6:</strong> 235%</li><li><strong>B9:</strong> 170%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 136%</li><li><strong>Iron:</strong> 8500%</li><li><strong>Magnesium:</strong> 214%</li><li><strong>Potassium:</strong> 404%</li><li><strong>Selenium:</strong> 18%</li><li><strong>Zinc:</strong> 155%</li><li><strong>Omega 3 Fas:</strong> 300%</li><li><strong>D:</strong> 210%</li></ul></div>
+</div>
+<div class="card" style="background-color: #fb8c00; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Persimmon</h3>
+<div class="badge" style="background-color: #fb8c00; color: white;">Orange</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 30371%</li><li><strong>B1:</strong> 417%</li><li><strong>B6:</strong> 1000%</li><li><strong>B9:</strong> 336%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 1400%</li><li><strong>Iron:</strong> 8400%</li><li><strong>Magnesium:</strong> 6440%</li><li><strong>Potassium:</strong> 343%</li><li><strong>Selenium:</strong> 184%</li><li><strong>Zinc:</strong> 164%</li><li><strong>Omega 3 Fas:</strong> 700%</li><li><strong>D:</strong> 125%</li></ul></div>
+</div>
+<div class="card" style="background-color: #fb8c00; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Pumpkin</h3>
+<div class="badge" style="background-color: #fb8c00; color: white;">Orange</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 95172%</li><li><strong>B1:</strong> 500%</li><li><strong>B6:</strong> 412%</li><li><strong>B9:</strong> 464%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 1160%</li><li><strong>Iron:</strong> 7733%</li><li><strong>Magnesium:</strong> 9390%</li><li><strong>Potassium:</strong> 723%</li><li><strong>Selenium:</strong> 64%</li><li><strong>Zinc:</strong> 336%</li><li><strong>Omega 3 Fas:</strong> 100%</li><li><strong>D:</strong> 465%</li></ul></div>
+</div>
+<div class="card" style="background-color: #fb8c00; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Sweet potatoes</h3>
+<div class="badge" style="background-color: #fb8c00; color: white;">Orange</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 6514%</li><li><strong>B1:</strong> 583%</li><li><strong>B6:</strong> 765%</li><li><strong>B9:</strong> 34%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 107%</li><li><strong>Iron:</strong> 21689%</li><li><strong>Magnesium:</strong> 7269%</li><li><strong>Potassium:</strong> 717%</li><li><strong>Selenium:</strong> 105%</li><li><strong>Zinc:</strong> 155%</li><li><strong>Omega 3 Fas:</strong> 900%</li><li><strong>D:</strong> 190%</li></ul></div>
+</div>
+<div class="card" style="background-color: #fb8c00; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Tangerine</h3>
+<div class="badge" style="background-color: #fb8c00; color: white;">Orange</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 8248%</li><li><strong>B1:</strong> 500%</li><li><strong>B6:</strong> 529%</li><li><strong>B9:</strong> 436%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 3233%</li><li><strong>Iron:</strong> 7267%</li><li><strong>Magnesium:</strong> 4308%</li><li><strong>Potassium:</strong> 281%</li><li><strong>Selenium:</strong> 20%</li><li><strong>Zinc:</strong> 73%</li><li><strong>Omega 3 Fas:</strong> 700%</li><li><strong>D:</strong> 80%</li></ul></div>
+</div>
+</div>
+</section>
+<section class="section" style="background-color: #ffebee; border-radius: 10px; padding: 20px;; display: block;">
+<h2 id="red">Red – 1 cup: Healthy heart, Decreases blood pressure, Skin protection, Prevents cancer, Helps cell renewal</h2>
+<div class="grid">
+<div class="card" style="background-color: #e53935; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Beets</h3>
+<div class="badge" style="background-color: #e53935; color: white;">Red</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 22%</li><li><strong>B1:</strong> 250%</li><li><strong>B6:</strong> 412%</li><li><strong>B9:</strong> 2725%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 544%</li><li><strong>Iron:</strong> 444%</li><li><strong>Magnesium:</strong> 548%</li><li><strong>Potassium:</strong> 691%</li><li><strong>Selenium:</strong> 127%</li><li><strong>Zinc:</strong> 318%</li><li><strong>Omega 3 Fas:</strong> 400%</li><li><strong>D:</strong> 0%</li></ul></div>
+</div>
+<div class="card" style="background-color: #e53935; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Cherries</h3>
+<div class="badge" style="background-color: #e53935; color: white;">Red</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 711%</li><li><strong>B1:</strong> 250%</li><li><strong>B6:</strong> 294%</li><li><strong>B9:</strong> 100%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 778%</li><li><strong>Iron:</strong> 200%</li><li><strong>Magnesium:</strong> 262%</li><li><strong>Potassium:</strong> 472%</li><li><strong>Selenium:</strong> 0%</li><li><strong>Zinc:</strong> 64%</li><li><strong>Omega 3 Fas:</strong> 500%</li><li><strong>D:</strong> 0%</li></ul></div>
+</div>
+<div class="card" style="background-color: #e53935; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Cherry plums</h3>
+<div class="badge" style="background-color: #e53935; color: white;">Red</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 3833%</li><li><strong>B1:</strong> 250%</li><li><strong>B6:</strong> 235%</li><li><strong>B9:</strong> 135%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 1067%</li><li><strong>Iron:</strong> 94%</li><li><strong>Magnesium:</strong> 167%</li><li><strong>Potassium:</strong> 455%</li><li><strong>Selenium:</strong> 18%</li><li><strong>Zinc:</strong> 91%</li><li><strong>Omega 3 Fas:</strong> 400%</li><li><strong>D:</strong> 0%</li></ul></div>
+</div>
+<div class="card" style="background-color: #e53935; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Cherry Tomatoes</h3>
+<div class="badge" style="background-color: #e53935; color: white;">Red</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 1573%</li><li><strong>B1:</strong> 83%</li><li><strong>B6:</strong> 59%</li><li><strong>B9:</strong> 64%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 240%</li><li><strong>Iron:</strong> 1039%</li><li><strong>Magnesium:</strong> 959%</li><li><strong>Potassium:</strong> 504%</li><li><strong>Selenium:</strong> 53%</li><li><strong>Zinc:</strong> 27%</li><li><strong>Omega 3 Fas:</strong> 200%</li><li><strong>D:</strong> 25%</li></ul></div>
+</div>
+<div class="card" style="background-color: #e53935; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Grapes</h3>
+<div class="badge" style="background-color: #e53935; color: white;">Red</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 1173%</li><li><strong>B1:</strong> 917%</li><li><strong>B6:</strong> 824%</li><li><strong>B9:</strong> 80%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 1920%</li><li><strong>Iron:</strong> 6222%</li><li><strong>Magnesium:</strong> 7276%</li><li><strong>Potassium:</strong> 406%</li><li><strong>Selenium:</strong> 29%</li><li><strong>Zinc:</strong> 100%</li><li><strong>Omega 3 Fas:</strong> 800%</li><li><strong>D:</strong> 290%</li></ul></div>
+</div>
+<div class="card" style="background-color: #e53935; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Nectarines</h3>
+<div class="badge" style="background-color: #e53935; color: white;">Red</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 5091%</li><li><strong>B1:</strong> 417%</li><li><strong>B6:</strong> 176%</li><li><strong>B9:</strong> 173%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 828%</li><li><strong>Iron:</strong> 6900%</li><li><strong>Magnesium:</strong> 6604%</li><li><strong>Potassium:</strong> 428%</li><li><strong>Selenium:</strong> 42%</li><li><strong>Zinc:</strong> 145%</li><li><strong>Omega 3 Fas:</strong> 600%</li><li><strong>D:</strong> 195%</li></ul></div>
+</div>
+<div class="card" style="background-color: #e53935; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Peppers (hot &amp; sweet)</h3>
+<div class="badge" style="background-color: #e53935; color: white;">Red</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 10578%</li><li><strong>B1:</strong> 500%</li><li><strong>B6:</strong> 1647%</li><li><strong>B9:</strong> 250%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 8933%</li><li><strong>Iron:</strong> 239%</li><li><strong>Magnesium:</strong> 286%</li><li><strong>Potassium:</strong> 372%</li><li><strong>Selenium:</strong> 109%</li><li><strong>Zinc:</strong> 227%</li><li><strong>Omega 3 Fas:</strong> 800%</li><li><strong>D:</strong> 0%</li></ul></div>
+</div>
+<div class="card" style="background-color: #e53935; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Pluots / Plums</h3>
+<div class="badge" style="background-color: #e53935; color: white;">Red</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 6325%</li><li><strong>B1:</strong> 417%</li><li><strong>B6:</strong> 294%</li><li><strong>B9:</strong> 206%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 1742%</li><li><strong>Iron:</strong> 6417%</li><li><strong>Magnesium:</strong> 6168%</li><li><strong>Potassium:</strong> 334%</li><li><strong>Selenium:</strong> 29%</li><li><strong>Zinc:</strong> 64%</li><li><strong>Omega 3 Fas:</strong> 300%</li><li><strong>D:</strong> 140%</li></ul></div>
+</div>
+<div class="card" style="background-color: #e53935; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Pomegranates</h3>
+<div class="badge" style="background-color: #e53935; color: white;">Red</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 1848%</li><li><strong>B1:</strong> 417%</li><li><strong>B6:</strong> 941%</li><li><strong>B9:</strong> 231%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 1043%</li><li><strong>Iron:</strong> 2567%</li><li><strong>Magnesium:</strong> 9497%</li><li><strong>Potassium:</strong> 502%</li><li><strong>Selenium:</strong> 167%</li><li><strong>Zinc:</strong> 164%</li><li><strong>Omega 3 Fas:</strong> 1000%</li><li><strong>D:</strong> 230%</li></ul></div>
+</div>
+<div class="card" style="background-color: #e53935; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Rhubarb</h3>
+<div class="badge" style="background-color: #e53935; color: white;">Red</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 578%</li><li><strong>B1:</strong> 83%</li><li><strong>B6:</strong> 59%</li><li><strong>B9:</strong> 89%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 453%</li><li><strong>Iron:</strong> 3400%</li><li><strong>Magnesium:</strong> 3497%</li><li><strong>Potassium:</strong> 613%</li><li><strong>Selenium:</strong> 102%</li><li><strong>Zinc:</strong> 45%</li><li><strong>Omega 3 Fas:</strong> 500%</li><li><strong>D:</strong> 55%</li></ul></div>
+</div>
+<div class="card" style="background-color: #e53935; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Strawberries</h3>
+<div class="badge" style="background-color: #e53935; color: white;">Red</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 203%</li><li><strong>B1:</strong> 333%</li><li><strong>B6:</strong> 412%</li><li><strong>B9:</strong> 912%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 9931%</li><li><strong>Iron:</strong> 10978%</li><li><strong>Magnesium:</strong> 5537%</li><li><strong>Potassium:</strong> 326%</li><li><strong>Selenium:</strong> 111%</li><li><strong>Zinc:</strong> 191%</li><li><strong>Omega 3 Fas:</strong> 2400%</li><li><strong>D:</strong> 320%</li></ul></div>
+</div>
+<div class="card" style="background-color: #e53935; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Tomatoes</h3>
+<div class="badge" style="background-color: #e53935; color: white;">Red</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 2499%</li><li><strong>B1:</strong> 83%</li><li><strong>B6:</strong> 118%</li><li><strong>B9:</strong> 101%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 381%</li><li><strong>Iron:</strong> 1650%</li><li><strong>Magnesium:</strong> 1524%</li><li><strong>Potassium:</strong> 504%</li><li><strong>Selenium:</strong> 9%</li><li><strong>Zinc:</strong> 36%</li><li><strong>Omega 3 Fas:</strong> 200%</li><li><strong>D:</strong> 35%</li></ul></div>
+</div>
+<div class="card" style="background-color: #e53935; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Watermelon (sugarbaby)</h3>
+<div class="badge" style="background-color: #e53935; color: white;">Red</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 18082%</li><li><strong>B1:</strong> 750%</li><li><strong>B6:</strong> 765%</li><li><strong>B9:</strong> 214%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 2574%</li><li><strong>Iron:</strong> 15906%</li><li><strong>Magnesium:</strong> 484%</li><li><strong>Potassium:</strong> 238%</li><li><strong>Selenium:</strong> 207%</li><li><strong>Zinc:</strong> 264%</li><li><strong>Omega 3 Fas:</strong> 1400%</li><li><strong>D:</strong> 345%</li></ul></div>
+</div>
+</div>
+</section>
+<section class="section" style="background-color: #eeeeee; border-radius: 10px; padding: 20px;; display: block;">
+<h2 id="brown">Brown <span>1 Items</span></h2>
+<div class="grid">
+<div class="card" style="background-color: #757575; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Beans (dry: all types)</h3>
+<div class="badge" style="background-color: #757575; color: white;">Brown</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 3%</li><li><strong>B1:</strong> 3500%</li><li><strong>B6:</strong> 2176%</li><li><strong>B9:</strong> 4520%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 200%</li><li><strong>Iron:</strong> 2767%</li><li><strong>Magnesium:</strong> 3333%</li><li><strong>Potassium:</strong> 2668%</li><li><strong>Selenium:</strong> 455%</li><li><strong>Zinc:</strong> 2536%</li><li><strong>Omega 3 Fas:</strong> 2800%</li><li><strong>D:</strong> 0%</li></ul></div>
+</div>
+</div>
+</section>
+<section class="section" style="background-color: #eeeeee; border-radius: 10px; padding: 20px;; display: block;">
+<h2 id="white">White – 5 items: Immune system, Healthy colon, Healthy heart, Prevents ulcers, Lowers cholesterol</h2>
+<div class="grid">
+<div class="card" style="background-color: #757575; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Cauliflower</h3>
+<div class="badge" style="background-color: #757575; color: white;">White</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 3%</li><li><strong>B1:</strong> 417%</li><li><strong>B6:</strong> 1235%</li><li><strong>B9:</strong> 1425%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 5356%</li><li><strong>Iron:</strong> 233%</li><li><strong>Magnesium:</strong> 357%</li><li><strong>Potassium:</strong> 645%</li><li><strong>Selenium:</strong> 109%</li><li><strong>Zinc:</strong> 245%</li><li><strong>Omega 3 Fas:</strong> 300%</li><li><strong>D:</strong> 0%</li></ul></div>
+</div>
+<div class="card" style="background-color: #757575; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Garlic</h3>
+<div class="badge" style="background-color: #757575; color: white;">White</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 0%</li><li><strong>B1:</strong> 83%</li><li><strong>B6:</strong> 647%</li><li><strong>B9:</strong> 7%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 0%</li><li><strong>Iron:</strong> 2161%</li><li><strong>Magnesium:</strong> 1%</li><li><strong>Potassium:</strong> 853%</li><li><strong>Selenium:</strong> 227%</li><li><strong>Zinc:</strong> 32809%</li><li><strong>Omega 3 Fas:</strong> 7000%</li><li><strong>D:</strong> 1405%</li></ul></div>
+</div>
+<div class="card" style="background-color: #757575; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Jerusalem Artichokes</h3>
+<div class="badge" style="background-color: #757575; color: white;">White</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 0%</li><li><strong>B1:</strong> 1667%</li><li><strong>B6:</strong> 1235%</li><li><strong>B9:</strong> 337%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 0%</li><li><strong>Iron:</strong> 6222%</li><li><strong>Magnesium:</strong> 90%</li><li><strong>Potassium:</strong> 1370%</li><li><strong>Selenium:</strong> 4444%</li><li><strong>Zinc:</strong> 191%</li><li><strong>Omega 3 Fas:</strong> 7000%</li><li><strong>D:</strong> 3480%</li></ul></div>
+</div>
+<div class="card" style="background-color: #757575; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Onions - large</h3>
+<div class="badge" style="background-color: #757575; color: white;">White</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 0%</li><li><strong>B1:</strong> 0%</li><li><strong>B6:</strong> 59%</li><li><strong>B9:</strong> 48%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 0%</li><li><strong>Iron:</strong> 889%</li><li><strong>Magnesium:</strong> 0%</li><li><strong>Potassium:</strong> 311%</li><li><strong>Selenium:</strong> 20745%</li><li><strong>Zinc:</strong> 45%</li><li><strong>Omega 3 Fas:</strong> 200%</li><li><strong>D:</strong> 320%</li></ul></div>
+</div>
+<div class="card" style="background-color: #757575; color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h3>Potatoes</h3>
+<div class="badge" style="background-color: #757575; color: white;">White</div>
+<button onclick="toggleInfo(this)">Show Nutrition</button>
+<div class="nutrition-info" style="display:none;"><ul><li><strong>Vitamin A:</strong> 0%</li><li><strong>B1:</strong> 1000%</li><li><strong>B6:</strong> 2000%</li><li><strong>B9:</strong> 281%</li><li><strong>B12:</strong> N/A</li><li><strong>C:</strong> 0%</li><li><strong>Iron:</strong> 6722%</li><li><strong>Magnesium:</strong> 9%</li><li><strong>Potassium:</strong> 896%</li><li><strong>Selenium:</strong> 46182%</li><li><strong>Zinc:</strong> 90909%</li><li><strong>Omega 3 Fas:</strong> 3400%</li><li><strong>D:</strong> 4625%</li></ul></div>
+</div>
+</div>
+</section>
+<script>
+function toggleInfo(button) {
+  const info = button.nextElementSibling;
+  if (info.style.display === "none") {
+    info.style.display = "block";
+    button.innerText = "Hide Nutrition";
+  } else {
+    info.style.display = "none";
+    button.innerText = "Show Nutrition";
+  }
+}
+</script>
+
+<script>
+  function scaleMap() {
+    const img = document.getElementById('bowlImage');
+    const map = document.querySelector('map[name="colorMap"]');
+    const originalWidth = 760; // Original image width in pixels
+    const scale = img.clientWidth / originalWidth;
+
+    const areas = map.getElementsByTagName('area');
+    for (let area of areas) {
+      const originalCoords = area.getAttribute('data-original-coords');
+      if (!originalCoords) {
+        area.setAttribute('data-original-coords', area.coords);
+      }
+      const coords = area.getAttribute('data-original-coords').split(',').map(Number);
+      const scaledCoords = coords.map(coord => Math.round(coord * scale));
+      area.coords = scaledCoords.join(',');
+    }
+  }
+
+  window.addEventListener('load', scaleMap);
+  window.addEventListener('resize', scaleMap);
+</script>
+
+</body>
+</html>
